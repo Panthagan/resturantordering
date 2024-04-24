@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.menu {
+    width: 50%;
+}
+
+.item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.item:hover {
+    transform: translateY(-2px);
+}
+
+.cart {
+    width: 40%;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.cart h2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+.content {
+    padding-bottom: 60px; /* Adjust this value to be at least the height of your footer */
+}
